@@ -1,0 +1,62 @@
+/* my code */
+
+
+/* fixing a links design */
+
+a, a img, a:link, a:active, a:focus, a:visited, a img {
+    text-decoration: none;
+    border: 0;
+}
+
+
+
+
+
+/* portfolio item design */
+
+.portfolio-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    max-width: 400px; 
+    height: 100%;
+    margin-bottom: 30px;
+    min-height: 300px;
+    
+    color: black;
+    background-color: beige;
+}
+
+
+.portfolio-item .image {
+    margin: 10px;
+    overflow-y: hidden;
+    
+}
+
+.portfolio-item .image img {
+    
+}
+
+
+.portfolio-item .content {
+    
+    margin: 15px;
+}
+
+
+
+.portfolio-item .content h1 {
+    
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+
+
+
+
+.portfolio-item:hover {
+    background-color: darkgrey;
+    
+}

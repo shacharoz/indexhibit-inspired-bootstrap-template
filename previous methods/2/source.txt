@@ -1,0 +1,3 @@
+https://www.sitepoint.com/understanding-bootstraps-affix-scrollspy-plugins/
+
+http://codepen.io/SitePoint/full/GgOzwX/
