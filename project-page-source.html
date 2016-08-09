@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>indexhibit inspired bootstrap portfolio template</title>
+
+          <!-- Bootstrap Core CSS -->
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!-- indexhibit template -->
+        <link href="css/affix.css" rel="stylesheet">
+        <link href="css/portfolio-articles.css" rel="stylesheet">
+        
+        <!-- image gallery -->
+        <link rel="stylesheet" href="blueimp-gallery/css/blueimp-gallery.min.css">
+  
+        <!-- video gallery -->
+        <link rel="stylesheet" href="blueimp-gallery/css/blueimp-gallery-video.css">
+        
+    </head>
+  
+    
+    <body data-spy="scroll" data-target=".scrollspy">
+    
+      <div class="container">
+          <div class="row">
+            <div class="col-md-3 scrollspy">
+              <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
+                <li class="hidden-li">------------------------------</li>
+                <li>
+                  <a href="index.html#work">Work</a>
+                  <ul class="nav">
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#2016">2016</a></li>
+                    <li><a href="#2015">2015</a></li>
+                  </ul>
+                </li>
+                <li><a href="resume.html">Resume</a>
+                  <ul class="nav">
+                    <li><a href="#work">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mailto:shachar.oz@gmail.com">Contact</a></li>
+                <li class="hidden-li">------------------------------</li>
+                <li class="hidden-li">------------------------------</li>
+                <li class="hidden-li">------------------------------</li>
+                <li class="text"><img src="http://dummyimage.com/250x250/aaaaaa/ffff00.jpg" width="95%" /> </li>
+                <li class="text">your title and tagline</li>
+                <li class="text">focus areas, tags, key words</li>
+                <li class="hidden-li">------------------------------</li>
+                <li class="hidden-li">------------------------------</li>
+                <li class="text">inspired by inexhibit.org. using code by <a href="http://www.sitepoint.com/understanding-bootstraps-affix-scrollspy-plugins">George Martsoukos</a>. powered by bootstrap</li>
+                <li class="hidden-li">------------------------------</li>
+                <li class="text">copyright @ shachar oz, 2016</li>
+              </ul>
+            </div>
+            <!-- end of sidebar -->
+                   
+                 
+              
+              
+            <div class=" col-md-9">
+              <!-- main content area -->
+                
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        
+                        <!-- image gallery -->
+                        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+                            <div class="slides"></div>
+                            <h3 class="title"></h3>
+                            <a class="prev">‹</a>
+                            <a class="next">›</a>
+                            <a class="play-pause"></a>
+                            <ol class="indicator"></ol>
+                        </div>
+                        <div id="links">
+                            <a href="http://dummyimage.com/1600x900/aaaaaa/ffffff.jpg" title="Banana"></a>
+                            <a href="http://dummyimage.com/1600x900/aaaaaa/00ff00.jpg" title="Apple"></a>
+                            <a href="http://dummyimage.com/1600x900/aaaaaa/ff0000.jpg" title="Orange"></a>
+                        </div>
+                        <!-- image gallery -->
+                        
+                        
+                        
+                        
+                        
+                        
+                        <h1>project <small>project beautiful tagline</small></h1>
+                        <p>project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description </p>
+                        
+                        <h2>published</h2>
+                        <p>project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description </p>
+                        
+                        <h2>team</h2>
+                        <p>project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description </p>
+                        
+                        
+                        
+                        
+                    <div id="blueimp-video-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+                        <div class="slides"></div>
+                        <h3 class="title"></h3>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="play-pause"></a>
+                    </div>
+
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+          </div>
+      <!--end of .row-->
+        </div>
+  
+      
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('#nav').affix({
+          offset: {     
+            top: $('#nav').offset().top,
+            bottom: ($('footer').outerHeight(true) + 40
+          }
+      });
+    </script>
+      
+        
+        <!-- image gallery -->
+    <script src="blueimp-gallery/js/blueimp-gallery.min.js"></script>
+        <script>
+    blueimp.Gallery(
+        document.getElementById('links').getElementsByTagName('a'),
+        {
+            container: '#blueimp-gallery-carousel',
+            carousel: true
+        }
+    );
+    </script>
+     <!-- image gallery -->
+        
+        
+     <!-- video gallery -->
+    <script src="blueimp-gallery/js/blueimp-helper.js"></script>
+    <script src="blueimp-gallery/js/blueimp-gallery.js"></script>
+    <script src="blueimp-gallery/js/blueimp-gallery-video.js"></script>
+    <script src="blueimp-gallery/js/blueimp-gallery-vimeo.js"></script>
+    <script src="blueimp-gallery/js/blueimp-gallery-youtube.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="blueimp-gallery/js/jquery.blueimp-gallery.js"></script>
+    <script src="blueimp-gallery/js/demo.js"></script>
+     <!-- video gallery -->
+
+        
+  </body>
+</html>
