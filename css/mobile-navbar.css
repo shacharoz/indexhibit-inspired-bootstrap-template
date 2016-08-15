@@ -23,9 +23,10 @@
 
 
 
-@media (max-width:768px) {
+@media (max-width: 995px) {
     .container {
         padding-left: 30 !important;
     }
-
 }
+
+
